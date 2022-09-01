@@ -208,20 +208,25 @@ def enter_bool():
 # save(worker1, 'worker')
 
 # 4 тесты
+#
+# class Test(unittest.TestCase):
+#
+#     example = Auto("красный", "Renault", 2)
+#
+#     def test_color(self):
+#         self.assertTrue(self.example.color, msg="Название не может быть пустой строкой")
+#
+#     def test_mark(self):
+#         self.assertTrue(self.example.mark, msg="Название не может быть пустой строкой")
+#
+#     def test_fuel(self):
+#         self.assertTrue(isinstance(self.example.fuel, bool), msg="Некорректное значение топлива")
+#
+#
+# if __name__ == "__main__":
+#     unittest.main()
 
-class Test(unittest.TestCase):
+bos = Boss()
 
-    example = Auto("красный", "Renault", 2)
-
-    def test_color(self):
-        self.assertTrue(self.example.color, msg="Название не может быть пустой строкой")
-
-    def test_mark(self):
-        self.assertTrue(self.example.mark, msg="Название не может быть пустой строкой")
-
-    def test_fuel(self):
-        self.assertTrue(isinstance(self.example.fuel, bool), msg="Некорректное значение топлива")
-
-
-if __name__ == "__main__":
-    unittest.main()
+bos+123
+print(bos)
